@@ -4,7 +4,7 @@ const MyMenu = () => {
   return (
     <div>
       <Link href="/about">
-        About
+        Home
       </Link>
       <Link href="/contact">
         Contact

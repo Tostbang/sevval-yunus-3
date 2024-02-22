@@ -4,6 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 export default function Nbar() {
   return (
+    
     <>
        <Navbar bg="dark" sticky='top' variant="dark" expand="lg">
       <Navbar.Brand href="#home">Navbar</Navbar.Brand>

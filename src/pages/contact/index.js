@@ -3,20 +3,16 @@ import Button from 'react-bootstrap/Button';
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
-import Footer from '../../../component/footer/Footer';
-import Nbar from '../../../component/navbar/Nbar';
+import Layout from '../../../component/Layout';
 
 export default function MyHome() {
   return (
     <>
-    <Nbar />
-    
-    <div className="d-flex justify-content-center align-items-center" style={{ height: "100vh" }}> 
-      <GridComplexExample />
-     
-     
-    </div>
-    <Footer />
+      <Layout>
+        <div className="d-flex justify-content-center align-items-center" style={{ height: "100vh" }}>
+          <GridComplexExample />
+        </div>
+      </Layout>
     </>
   );
 }

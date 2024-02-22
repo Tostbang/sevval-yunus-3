@@ -3,18 +3,18 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Carousel from 'react-bootstrap/Carousel';
 import Card from 'react-bootstrap/Card';
-import Footer from '../../../component/footer/Footer';
-import Nbar from '../../../component/navbar/Nbar';
+
+import Layout from '../../../component/Layout';
 
 export default function index() {
   
     return (
       <div>
       
-        <Nbar />
+        <Layout> 
         <MySlider />
         <MyCards />
-        <Footer />
+        </Layout>
         
       </div>
     );

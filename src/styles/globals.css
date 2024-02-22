@@ -1,6 +1,9 @@
-.container{
+
+.card-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+  justify-content: space-around;
+}
+.my-component {
+  border: 2px solid rgb(145, 138, 138); 
+  padding: 10px;
 }

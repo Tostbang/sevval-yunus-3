@@ -2,13 +2,15 @@ import Link from 'next/link';
 
 const MyMenu = () => {
   return (
-    <div>
-      <Link href="/about">
+    <div> 
+      <Link href="/home">
         Home
       </Link>
+      <br />
       <Link href="/contact">
         Contact
       </Link>
+     
     </div>
   );
 }
